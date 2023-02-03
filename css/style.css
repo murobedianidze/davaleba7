@@ -1,0 +1,26 @@
+ .container {
+     max-width: 1440px;
+     width: 100%;
+     margin: 0 auto;
+     padding-top: 160px;
+     background-color: #F5F5F5;
+ }
+/* header */
+ header {
+     max-width: inherit;
+     width: inherit;
+     background-color: #FFFFFF;
+     padding: 58px 80px;
+     border-radius: 0px 0px 50px 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     display: flex;
+     z-index: 1;
+ }
+ .fa-bars{
+    color: #125806;
+    font-size: 55px;
+}
