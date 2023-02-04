@@ -2,7 +2,7 @@
      max-width: 1440px;
      width: 100%;
      margin: 0 auto;
-     padding-top: 160px;
+     padding-top: 171px;
      background-color: #F4EEEE;
  }
 
@@ -18,10 +18,11 @@
      align-items: center;
      position: fixed;
      top: 0;
+     left: 50%;
+     transform: translateX(-50%);
      display: flex;
      z-index: 1;
  }
-
  .fa-bars {
      color: #125806;
      font-size: 55px;
@@ -29,13 +30,10 @@
 
  /* section */
  .section1{
-     width: 90%;
-     height: 720px;
-     margin: 0 auto;
-     padding: 90px 80px 206px 80px;
-     position: relative;
+    width: 90%;
+    margin: 90px auto 206px auto;
+    position: relative;
  }
-
  .section1_img {
      width: 100%;
      height: 100%;
@@ -55,29 +53,38 @@
  .section2{
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 112px;
 }
 h1{
-    width: 785px;
     font-size: 40px;
     color: #125806;
-    margin-bottom: 74px; 
+    margin-bottom: 40px; 
 }
 .cards{
+    width: 100%;
+    height: 569px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 28px;
     align-content: space-between;
-    margin-bottom: 112px;
 }
 .card{
     width: 30%;
     height: 271px;
 }
+.card_img{
+    width: 100%;
+    height: 100%;
+}
+/* footer */
 footer{
     width: 100%;
-    height: 292px;
     background-color: #ffffff;
+    padding: 52px 73px 78px 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
 
 }
 .footer_div{
@@ -90,9 +97,12 @@ h3{
     margin-bottom: 47px;
     font-size: 20px;
     font-weight: 700px;
+
 }
 .footer_text{
+    color: #413D3D;
     font-size: 16px;
     font-weight: 700px;
-   line-height: 20.79px; 
+    line-height: 20.79px;
+
 }
